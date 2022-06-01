@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import Header from './components/Header';
@@ -10,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer'
 
 import AOS from 'aos';
+import React, { useState, useEffect } from 'react';
 
 function App() {
   // THIS IS FOR THE AOS FADING EFFECT 

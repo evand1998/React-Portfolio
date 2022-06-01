@@ -12,7 +12,6 @@ function portfolio() {
                     <p>Please take the time to view the following projects I have proudly worked on. Some have been built solely by myself, while others have been group efforts, please visit the Github repositories in order to view any collaborators. </p>
                     <p>Additionally, these are all public projects, any I have done for private clients or applications that are yet to be made public are excluded from this gallery. Both hard work and discretion are tools in my arsenal as a professional.</p>
                 </div>
-
                 <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
                     <div className="col-lg-4 col-md-6 portfolio-item">
@@ -69,7 +68,6 @@ function portfolio() {
                         <div className="portfolio-wrap">
                         <img src={require('../../Assets/portfolio/budget.png')} className="img-fluid" alt="" />
                         <div className="portfolio-links">
-                            <a href="" title="View Github"><i className="bx bxl-github"></i></a>
                             <a href="https://fierce-cliffs-95591.herokuapp.com/" title="View Page"><i className="bx bx-link"></i></a>
                         </div>
                         </div>
@@ -80,5 +78,4 @@ function portfolio() {
         </section>
     )
 }
-
 export default portfolio;
